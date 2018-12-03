@@ -9,7 +9,7 @@ function listAll(min, max) {
 function listBetweenDesc(min, max) {
   var result = "";
   max = max - 1;
-  for (i=max; i>min; i--) {
+  for (var i=max; i>min; i--) {
     result = result + i + " ";
   }
   return result.trim();
